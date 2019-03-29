@@ -33,7 +33,7 @@ function playRound(playerSelection, computerSelection) {
     results.textContent = gameResult;
 
     if(playerScore < 5 && computerScore < 5)
-        results.textContent += " Player: " + playerScore + "Computer: " + computerScore;
+        results.textContent += " Player: " + playerScore + " Computer: " + computerScore;
     else if(playerScore >= 5)
         results.textContent = "You win!";
     else
